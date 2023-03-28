@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CoinCapApi</string>
+    <!--    Name of the nav graphs.-->
+    <string name="title_assets">Assets</string>
+    <string name="title_rates">Rates</string>
+    <string name="title_home">Home</string>
+    <string name="title_exchanges">Exchanges</string>
+    <string name="title_markets">Markets</string>
+    <string name="title_exchanges_detailed">Detailed View</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

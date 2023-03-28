@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_assets"
+        android:name="com.example.coincapapi.ui.assets.AssetsFragment"
+        android:label="@string/title_assets"
+        tools:layout="@layout/fragment_assets" >
+        <action
+            android:id="@+id/action_assetsDetails"
+            app:destination="@id/navigation_assets_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_rates"
+        android:name="com.example.coincapapi.ui.rates.RatesFragment"
+        android:label="@string/title_rates"
+        tools:layout="@layout/fragment_rates" >
+        <action
+            android:id="@+id/action_ratesDetails"
+            app:destination="@id/navigation_rates_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.coincapapi.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_exchanges"
+        android:name="com.example.coincapapi.ui.exchanges.ExchangesFragment"
+        android:label="@string/title_exchanges"
+        tools:layout="@layout/fragment_exchanges" >
+        <action
+            android:id="@+id/action_exchangeDetails"
+            app:destination="@id/navigation_exchanges_details" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_markets"
+        android:name="com.example.coincapapi.ui.markets.MarketsFragment"
+        android:label="@string/title_markets"
+        tools:layout="@layout/fragment_markets" >
+        <action
+            android:id="@+id/action_marketDetails"
+            app:destination="@id/navigation_market_details" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_exchanges_details"
+        android:name="com.example.coincapapi.ui.exchanges.exchangesdetails.ExchangeDetailsFragment"
+        android:label="@string/title_exchanges_detailed"
+        tools:layout="@layout/fragment_exchange_details" />
+    <fragment
+        android:id="@+id/navigation_assets_details"
+        android:name="com.example.coincapapi.ui.assets.assetsdetails.AssetsDetailsFragment"
+        android:label="@string/title_exchanges_detailed"
+        tools:layout="@layout/fragment_assets_details" />
+    <fragment
+        android:id="@+id/navigation_rates_details"
+        android:name="com.example.coincapapi.ui.rates.ratesdetails.RatesDetailsFragment"
+        android:label="@string/title_exchanges_detailed"
+        tools:layout="@layout/fragment_rates_details" />
+    <fragment
+        android:id="@+id/navigation_market_details"
+        android:name="com.example.coincapapi.ui.markets.marketsdetails.MarketDetailsFragment"
+        android:label="@string/title_exchanges_detailed"
+        tools:layout="@layout/fragment_market_details" />
+</navigation>

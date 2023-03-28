@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_blue_1">#2196F3</color>
+    <color name="light_blue_2">#008DD4</color>
+    <color name="light_blue_3">#007AB1</color>
+    <color name="yellow_1">#FFEB3B</color>
+    <color name="orange_1">#FF5722</color>
+    <color name="gold">#FFB907</color>
+    <color name="silver">#D5D5D5</color>
+    <color name="bronze">#B87600</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_transparent">#EDFFFFFF</color>
+</resources>
